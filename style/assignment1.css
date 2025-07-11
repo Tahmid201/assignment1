@@ -16,7 +16,7 @@ header{
     padding:0;
     box-sizing: border-box;
   }
-body{
+body, head, footer{
     margin:auto;
     max-width: 1440;
     height: 700;
@@ -87,8 +87,8 @@ body{
   }
   .user{
     margin: 137 auto;
-    padding: 80px 40px;
-    background-color:#b3b1f8;
+    padding: 120px;
+    background-color:#dbdaf0;
     border-radius: 10px;
   }
   .user-title{
@@ -148,8 +148,92 @@ body{
     color:#757575;
     text-align: left;
   }
+  .main2{
+    align-items: center;
+    align-content: center;
+    background-color: #faf4f4;
+  }
   .main2-head{
     color:#000000;
     font-size: 50px;
     font-weight: bold;
   }
+  .main2-image{
+    border-radius: 40px;
+  }
+  .main3{
+    display:flex;
+    justify-content:space-between;
+    padding: 40px;
+    background-color: #dbdaf0;
+    margin:auto;
+    height: auto;
+  }
+  .main3-title{
+    font-size: 97px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+  .main3-form{
+    width: 500px;
+    gap: 19px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+  }
+  .main3-form input{
+    width: 500px;
+    padding: 20px;
+    font-size: 16px;
+  }
+  .login{
+    margin: 19px;
+    width: 500px;
+    height: 700px;;
+    align-items:center;
+    justify-items: center;
+    padding: auto 150px;
+  }
+  section{
+    width: 100%;
+    max-width: 1400;
+    margin: auto;
+    padding: 80px 40px
+  }
+  .inside{
+    background-color: rgb(246, 237, 237);
+    border-radius: 5px;
+  }
+  .titles{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .footer{
+    align-content: center;
+    padding: 20px;
+  }
+  .footer-head{
+    font-size: 100px;
+    font: weight 900px;;
+  }
+  .footer-p{
+    color:#8987A1
+  }
+  .footer-ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+  }
+  footer ul li{
+    justify-content: space-around;
+    margin-right: 20px;
+  }
+  .footer-ul a{
+    text-decoration: none;
+    color:#8987A1
+  }
+  
