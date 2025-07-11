@@ -46,12 +46,14 @@ body{
   }
   .text-center{
     text-align: center;
+    align-items: center;
   }
   .middle-title{
     font-size: 65px;
     font-weight: bold;
     color:#252432;
     margin-bottom: 20;
+    margin-bottom: 30px;
   }
   main{
     padding:40px 80px;
@@ -78,3 +80,31 @@ body{
     justify-content: space-between;
     align-items: center;
   }
+  .section-title{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .user{
+    margin: 137 auto;
+    padding: 80px 40px;
+    background-color:#b3b1f8;
+    border-radius: 10px;
+  }
+  .user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color:#252432
+  }
+  .count{
+    font-size:80px;
+    font-weight:bold;
+    color: #4E47FF
+  }
+  .name{
+    font-size:20px;
+    font-weight:normal;
+    color:#000000
+  }
+
+  
