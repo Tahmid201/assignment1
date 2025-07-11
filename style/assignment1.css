@@ -164,22 +164,22 @@ body, head, footer{
   .main3{
     display:flex;
     justify-content:space-between;
-    padding: 40px;
     background-color: #dbdaf0;
-    margin:auto;
-    height: auto;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;;
   }
   .main3-title{
     font-size: 97px;
     font-weight: bold;
-    align-items: center;
+    align-items:center;
+    justify-items: left;
     justify-content: center;
   }
   .main3-form{
     width: 500px;
     gap: 19px;
     align-items: center;
-    justify-items: center;
     justify-content: center;
 
   }
